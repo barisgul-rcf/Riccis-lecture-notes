@@ -22,3 +22,15 @@ To become linear, a differential equation must satisfy three strick rules:
 3. Neither the function or its derivatives are “inside” another function.
 
 The coefficients $a_0(t),...,a_n(t)$ and $g(t)$ can be zero or non-zero functions, constant or non-constant functions, linear or non-linear functions. They do not affect the linearity of the equation.
+
+### Solutions
+
+**Pay close attention to the intervals!!!**
+
+A **solution** to a differential equation on an interval  $\alpha <t < \beta$ is any function $y(t)$ which satisfies the differential equation in question on the interval $\alpha <t < \beta$
+
+### Initial Conditions
+
+Initial conditions are a set of conditions on the solution that we declare as important. They are often abbreviated as **i.c.** and are in the form of:
+$$y\left( {{t_0}} \right) = {y_0}\hspace{0.25in}{\mbox{and/or  }}{y^{\left( k \right)}}\left( {{t_0}} \right) = {y_k}$$
+Solutions to “good enough” differential equations are unique and only one solution will meet the given initial conditions.
