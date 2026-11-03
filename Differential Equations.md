@@ -19,9 +19,13 @@ Functions that cannot be written in the form above are called **non-linear diffe
 To become linear, a differential equation must satisfy three strick rules:
 1. Neither the function or its derivatives occur to any power other than the first power,
 2. There are no products of the function, $y(t)$, and its derivatives,
-3. Neither the function or its derivatives are “inside” another function.
+3. Neither the function or its derivatives are inside another function.
 
 The coefficients $a_0(t),...,a_n(t)$ and $g(t)$ can be zero or non-zero, constant or non-constant, linear or non-linear functions. They do not affect the linearity of the equation.
+
+#### Homogeneous linear equations
+
+A linear differential equation is **homogeneous** if each term in the equation includes either the dependent variable or one of its derivatives. If this is not the case, so that there is a term that does not include either the dependent variable itself or a derivative of it, the equation is **inhomogeneous** or **heterogeneous**.
 
 ### Solutions
 
