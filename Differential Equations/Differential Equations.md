@@ -21,7 +21,7 @@ To become linear, a differential equation must satisfy three strick rules:
 2. There are no products of the function, $y(t)$, and its derivatives,
 3. Neither the function or its derivatives are inside another function.
 
-The coefficients $a_0(t),...,a_n(t)$ and $g(t)$ can be zero or non-zero, constant or non-constant, linear or non-linear functions. They do not affect the linearity of the equation.
+	The coefficients $a_0(t),...,a_n(t)$ and $g(t)$ can be zero or non-zero, constant or non-constant, linear or non-linear functions. They do not affect the linearity of the equation.
 
 #### Homogeneous linear equations
 
@@ -37,5 +37,19 @@ A **solution** to a differential equation on an interval  $\alpha <t < \beta$ is
 
 Initial conditions are a set of conditions on the solution that we declare as important. They are often abbreviated as **i.c.** and are in the form of:
 $$y\left( {{t_0}} \right) = {y_0}\hspace{0.25in}{\mbox{and/or  }}{y^{\left( k \right)}}\left( {{t_0}} \right) = {y_k}$$
-Solutions to “good enough” differential equations are unique and only one solution will meet the given initial conditions.
+Solutions to “good enough” differential equations are unique and only one solution will meet the given initial conditions. Used for determining the constant of the differential equation. If the independent variable corresponds to time, this information takes the form of initial conditions.
+Ode and its initial conditions form **the initial value problem (IVP)**
+
+The **interval of validity** for an IVP is the largest possible interval on which the solution is valid and contains $t_0$.
+### Boundary Conditions
+
+For the case of a spatial independent variable we have **boundary conditions**. They are often specified at different values of the independent variable. Ode and boundary conditions form the **boundary value problem**.
+
+A **boundary value problem** has conditions specified at the extremes ("boundaries") of the independent variable in the equation whereas an **initial value problem** has all of the conditions specified at the same value of the independent variable.
+
+### General vs Actual Solution
+
+If the solution is the most general form that the solution can take and do not care about the initial conditions, then it is a **general solution**.
+
+If the solution takes the initial conditions into account while satisfying the differential equation, then it is an **actual solution**.
 
