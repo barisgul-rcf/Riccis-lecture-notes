@@ -12,6 +12,8 @@ The LHS of the equation became the product rule, so: $$\begin{equation}{\left( {
 Integrate both sides: $$\begin{equation}\mu \left( t \right)y\left( t \right) + c = \int{{\mu \left( t \right)g\left( t \right)\,dt}}\end{equation}$$
 Solve for $y(t)$: $$\begin{equation}y\left( t \right) = \frac{{\int{{\mu \left( t \right)g\left( t \right)\,dt}} + c}}{{\mu \left( t \right)}}\end{equation}$$
 By playing around the third equation we find that: $$\begin{equation}\mu \left( t \right) = \,{{\bf{e}}^{\int{{p\left( t \right)\,dt}}}}\end{equation}$$
+Solutions to first order differential equations will have a single unknown constant in them and so we will need exactly one initial condition to find the value of that constant and hence find the solution that we were after. The initial condition for first order differential equations will be of the form: $$y\left( {{t_0}} \right) = {y_0}$$
+
 
 
 
