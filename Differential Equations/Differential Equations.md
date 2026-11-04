@@ -53,3 +53,9 @@ If the solution is the most general form that the solution can take and do not c
 
 If the solution takes the initial conditions into account while satisfying the differential equation, then it is an **actual solution**.
 
+### Implicit/Explicit Solution
+
+If the dependent variable $(y)$ is completely isolated in one side of the equation and expressed directly as a function of the independent variable $(x)$, then it is an **explicit solution**.
+
+If the variables $x$ and $y$ are intertwined together in an equation and $y$ is not or cannot be isolated by itself on one side, then it is an **implicit solution**.
+
