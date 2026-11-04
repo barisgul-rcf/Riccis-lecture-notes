@@ -62,3 +62,11 @@ If the variables $x$ and $y$ are intertwined together in an equation and $y$ is 
 ### Direction Fields
 
 Look https://tutorial.math.lamar.edu/Classes/DE/DirectionFields.aspx
+
+### Existence and Uniqueness
+
+1. If $f$ is continuous on an open rectangle $$R: \{ a < x < b, c < y < d \}$$
+that contains $(x_0,y_0)$ then the **initial value problem** $$ y'=f(x,y), \quad y(x_0)=y_0$$
+has at least one solution on some open subinterval of $(a,b)$ that contains $x_0$. This is an **existence theorem**.
+
+2. If both $f$ and $f_y$ are continious on $R$ then the equation has a unique solution on some open subinterval of $(a,b)$ that cnotains $x_0$. This is an **uniqueness** theorem.
