@@ -27,7 +27,16 @@ Now we integrate both sides: $$\begin{equation}\int{{N\left( y \right)dy}} = \in
 ### Exact Equations
 $$\begin{equation} M\left( {x,y} \right) + N\left( {x,y} \right)\frac{{dy}}{{dx}} = 0\end{equation}$$
 **It is important that it must be in this form!** There must be an “= 0” on one side and the sign separating the two terms must be a “+”. Now imagine a function that looks like $\Psi\left(x,y\right)$ where: $${\Psi _x} = M\left( {x,y} \right)\hspace{0.25in}\,\,\,\,\,\,\,\,\,\,\,\,{\mbox{and }}\,\,\hspace{0.25in}{\Psi _y} = N\left( {x,y} \right)$$
-If this function exists then our equation is **exact**. We can write the differensial equation as: $$\begin{equation} {\Psi _x} + {\Psi _y}\frac{{dy}}{{dx}} = 0\end{equation}$$
+If this function exists then our equation is **exact**. We can write the differential equation as: $$\begin{equation} {\Psi _x} + {\Psi _y}\frac{{dy}}{{dx}} = 0\end{equation}$$
+Using the chain rule: $$\frac{d}{{dx}}\left( {\Psi \left( {x,y\left( x \right)} \right)} \right) = 0$$
+Then the implicit solution is: $$\begin{equation} \Psi \left( {x,y} \right) = c\end{equation}$$
+##### Exactness Test:
+Assume that the differential equation is exact. Somewhere out there is a continuous function $\Psi\left(x,y\right)$ that satisfies: 
+$$\begin{align*}{\Psi _x} & = M\\ {\Psi _y} & = N\end{align*}$$
+$$\begin{align*}{\Psi _{x\,y}} & = {\left( {{\Psi _x}} \right)_y} = {\left( M \right)_y} = {M_y}\\ {\Psi _{y\,x}} & = {\left( {{\Psi _y}} \right)_x} = {\left( N \right)_x} = {N_x}\end{align*}$$
+Therefore if a differential equation is exact and $\Psi\left(x,y\right)$ and its first order derivatives meets the continuity conditions then we have: $$\begin{equation} {M_y} = {N_x}\end{equation}$$
+If this is not true then the equation cannot be exact. But it does not guarantee exactness since we need to assume $\Psi\left(x,y\right)$ meets continuity conditions.
+
 
 
 
