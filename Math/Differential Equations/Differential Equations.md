@@ -59,3 +59,6 @@ If the dependent variable $(y)$ is completely isolated in one side of the equati
 
 If the variables $x$ and $y$ are intertwined together in an equation and $y$ is not or cannot be isolated by itself on one side, then it is an **implicit solution**.
 
+### Direction Fields
+
+Look https://tutorial.math.lamar.edu/Classes/DE/DirectionFields.aspx
