@@ -43,6 +43,17 @@ Now do this substitution, $v = {y^{1 - n}}$ and determine what $y'$ is in terms 
 Now plug this to the equation with the original substitution to obtain: $$\frac{1}{{1 - n}}v' + p\left( x \right)v = q\left( x \right)$$
 The equation has been [[#Linear Equations|linearised]]. Solve for $v$ and plug it back into the substitution and solve for $y$.
 
+### Substitutions
+
+First substitution (homogenous differential equations):$$y' = F\left( {\frac{y}{x}} \right)$$
+Use the substitution $v\left( x \right) = \frac{y}{x}$ and take the derivative: $$y' = v + xv'$$
+Then: $$\begin{align*}v + xv' & = F\left( v \right)\\ x v' & = F\left( v \right) - v\hspace{0.25in} \Rightarrow \hspace{0.25in}\frac{{dv}}{{F\left( v \right) - v}} = \frac{{dx}}{x}\end{align*}$$
+which is a [[#Separable Equations|separable differential equation]].
+
+Second substitution: $$y' = G\left( {ax + by} \right)$$
+Use the substitution $v = ax + by\hspace{0.25in} \Rightarrow \hspace{0.25in}v' = a + by'$ and plug this into the equation: $$\begin{align*}\frac{1}{b}\left( {v' - a} \right) & = G\left( v \right)\\ v' & = a + bG\left( v \right)\hspace{0.25in} \Rightarrow \hspace{0.25in}\frac{{dv}}{{a + bG\left( v \right)}} = dx\end{align*}$$
+
+
 
 
 
