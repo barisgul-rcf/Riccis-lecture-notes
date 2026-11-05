@@ -2,7 +2,6 @@
 
 There is no general formula for the solutions of the most general form of first order differential equations:$$\begin{equation}\frac{{dy}}{{dt}} = f\left( {y,t} \right)\end{equation}$$
 ## Linear Equations
-
 $$\begin{equation}\frac{{dy}}{{dt}} + p\left( t \right)y = g\left( t \right)\end{equation}$$
 where both $p(t)$ and $g(t)$ are continuous functions. Multiply the equation with the integrating factor $\mu \left( t \right)$. This will give: $$\begin{equation}\mu \left( t \right)\frac{{dy}}{{dt}} + \mu \left( t \right)p\left( t \right)y = \mu \left( t \right)g\left( t \right)\end{equation}$$
 Assume $\mu \left( t \right)$ satisfies the equation: $$\begin{equation}\mu \left( t \right)p\left( t \right) = \mu '\left( t \right)
@@ -36,6 +35,17 @@ $$\begin{align*}{\Psi _x} & = M\\ {\Psi _y} & = N\end{align*}$$
 $$\begin{align*}{\Psi _{x\,y}} & = {\left( {{\Psi _x}} \right)_y} = {\left( M \right)_y} = {M_y}\\ {\Psi _{y\,x}} & = {\left( {{\Psi _y}} \right)_x} = {\left( N \right)_x} = {N_x}\end{align*}$$
 Therefore if a differential equation is exact and $\Psi\left(x,y\right)$ and its first order derivatives meets the continuity conditions then we have: $$\begin{equation} {M_y} = {N_x}\end{equation}$$
 If this is not true then the equation cannot be exact. But it does not guarantee exactness since we need to assume $\Psi\left(x,y\right)$ meets continuity conditions.
+
+### Bernoulli Differential Equations
+$$y' + p\left( x \right)y = q\left( x \right){y^n}$$
+where $p(x)$ and $q(x)$ are continuous functions. If $n = 0$ or $n=1$ then the equation is a [[First Order Differential Equations#Linear Equations|linear equation]]. If not, divide the differential equation by $y^n$: $${y^{ - n}}\,y' + p\left( x \right){y^{1 - n}} = q\left( x \right)$$
+Now do this substitution, $v = {y^{1 - n}}$ and determine what $y'$ is in terms of our substitution by differentiating both sides of the substitution with respect to $x$: $$v' = \left( {1 - n} \right){y^{ - n}}y'$$
+Now plug this to the equation with the original substitution to obtain: $$\frac{1}{{1 - n}}v' + p\left( x \right)v = q\left( x \right)$$
+The equation has been [[#Linear Equations|linearised]]. Solve for $v$ and plug it back into the substitution and solve for $y$.
+
+
+
+
 
 
 
