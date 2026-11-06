@@ -54,19 +54,29 @@ Second substitution: $$y' = G\left( {ax + by} \right)$$
 Use the substitution $v = ax + by\hspace{0.25in} \Rightarrow \hspace{0.25in}v' = a + by'$ and plug this into the equation: $$\begin{align*}\frac{1}{b}\left( {v' - a} \right) & = G\left( v \right)\\ v' & = a + bG\left( v \right)\hspace{0.25in} \Rightarrow \hspace{0.25in}\frac{{dv}}{{a + bG\left( v \right)}} = dx\end{align*}$$
 ### Autonomous Differential Equations (Time Invariant Systems If the Independent Variable is Time)
 $$\frac{{dy}}{{dt}} = f\left( y \right)$$
-The only place that the independent variable ($t$) appears is in the derivative.
+The only place that the independent variable ($t$) appears is in the derivative. Values of $y$ where the rate of changi is zero ($f(y) = 0$) are called **equilibrium solutions (critical points)**. At these points, the system is constant over time. ($y(t) = c$)
 
+An autonomous differential equation is [[#Separable Equations|separable]] and that a solution can be found by integrating $$\int \dfrac{dy}{f(y)} = t + C$$ This integral is often difficult or impossible to solve, so look at [[Differential Equations#Direction Fields|direction fields]] to investigate the solution. If $𝑓⁡(𝑦_0) = 0$ for some value $y = y_0$ then this will also be a solution to the differential equation. 
 
+#### Stability of Equilibria
 
+ 1. **Stable (Sink / Attractor):** Solutions near the equilibrium move _toward_ it as time goes on.
+2. **Unstable (Source / Repeller):** Solutions near the equilibrium move _away_ from it.
+3. **Semi-stable:** Solutions move toward it from one side and away from it from the other. 
 
+To determine if an equilibrium point is stable or unstable, take the derivative of the rate of change function with respect to $y$ and evaluate at $y = c$.
 
+If $f'(c) < 0$: The point is **asymptotically stable**. (or sink)
 
+If  $f'(c) > 0$: The point is **unstable**. (or source)
 
+If $f'(c) = 0$: Check the signs of $f(y)$ on both signs of $c$. If it has the same signs on both sides then it it **semi-stable**.
 
+A stable equilibrium point simply ensures that nearby solutions stay within a bounded distance over time, an asymptotically stable equilibrium point goes further by requiring those solutions to eventually converge directly to the equilibrium state as time approaches infinity.
 
-
-
-
-
-
-
+### Euler's Method
+$$\begin{equation}\frac{{dy}}{{dt}} = f\left( {t,y} \right)\hspace{0.25in}y\left( {{t_0}} \right) = {y_0}\end{equation}$$
+$${y_{n + 1}} = {y_n} + f\left( {{t_n},{y_n}} \right) \cdot \left( {{t_{n + 1}} - {t_n}} \right)$$
+Define ${f_n} = f\left( {{t_n},{y_n}} \right)$:  $$\begin{equation}{y_{n + 1}} = {y_n} + {f_n} \cdot \left( {{t_{n + 1}} - {t_n}} \right)\end{equation}$$
+If we assume the step sizes between the points $t_0, t_1, t_2, ...$ are of a uniform size of $h$: $${t_{n + 1}} - {t_n} = h$$
+Then the next approximation becomes: $$\begin{equation}{y_{n + 1}} = {y_n} + h\,{f_n}\end{equation}$$
