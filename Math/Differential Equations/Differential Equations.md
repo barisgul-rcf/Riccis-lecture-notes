@@ -70,3 +70,5 @@ that contains $(x_0,y_0)$ then the **initial value problem** $$ y'=f(x,y), \quad
 has at least one solution on some open subinterval of $(a,b)$ that contains $x_0$. This is an **existence theorem**.
 
 2. If both $f$ and $f_y$ are continious on $R$ then the equation has a unique solution on some open subinterval of $(a,b)$ that cnotains $x_0$. This is an **uniqueness** theorem.
+
+Intervals of validity for linear differential equations do not depend on the value of $y_0$. Intervals of validity for non-linear differential can depend on the value of $y_0$.
