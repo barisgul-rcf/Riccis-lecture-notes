@@ -52,7 +52,9 @@ which is a [[#Separable Equations|separable differential equation]].
 
 Second substitution: $$y' = G\left( {ax + by} \right)$$
 Use the substitution $v = ax + by\hspace{0.25in} \Rightarrow \hspace{0.25in}v' = a + by'$ and plug this into the equation: $$\begin{align*}\frac{1}{b}\left( {v' - a} \right) & = G\left( v \right)\\ v' & = a + bG\left( v \right)\hspace{0.25in} \Rightarrow \hspace{0.25in}\frac{{dv}}{{a + bG\left( v \right)}} = dx\end{align*}$$
-
+### Autonomous Differential Equations (Time Invariant Systems If the Independent Variable is Time)
+$$\frac{{dy}}{{dt}} = f\left( y \right)$$
+The only place that the independent variable ($t$) appears is in the derivative.
 
 
 
