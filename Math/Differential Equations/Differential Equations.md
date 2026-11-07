@@ -8,7 +8,7 @@ The **order** of a differential equation is the largest derivative present in th
 $$\begin{equation}{y^{\left( 5 \right)}} + 10y''' - 4y' + 2y = \sin \left( t \right)\end{equation}$$
 ### Ordinary and Partial Differential Equations
 
-A differential equation is called an **ordinary differential equation**, or **ode,** if it has an unknown function of one real or complex variable, its derivatives and some given functions of that variable in it. Likewise, a differential equation is called a **partial differential equation** if it has unknown multivariable functions and their partial derivatives in it and it is abbreviated by **pde**.
+A differential equation is called an **ordinary differential equation**, or **ODE,** if it has an unknown function of one real or complex variable, its derivatives and some given functions of that variable in it. Likewise, a differential equation is called a **partial differential equation** if it has unknown multivariable functions and their partial derivatives in it and it is abbreviated by **PDE**.
 $$\begin{equation}\frac{{{\partial ^3}u}}{{{\partial}x^2\partial t}} = 1 + \frac{{\partial u}}{{\partial y}}\end{equation}$$
 ### Linear Differential Equations
 
